@@ -9,16 +9,26 @@ categories: jekyll update
 
 In this post, we would be seeing how different is Angular 2 and what are the new additions it is bringing to the world of Single Page App development. Before we start with that, lets first understand what triggered the development of Angular 2 which is essentially a rewrite of the Angular framework. Lets discuss about the pain points in AngularJS that made the Angular dev Team rewrite the framework from scratch.
 
+## _Pain Points in AngularJS_
+
 # 1. Scope pollution
+To connect the view with data, we know we have to use the $scope object and we could just keep modifying depending on the context. But what this has lead too is $scope objects getting cluttered all through our controller code which make maintaining and debugging the application hard. In addition to the current scope, we could also access parent or root scope freely which again creates havoc when we update data at different controllers.
 
 # 2. Digest Cycle - Boon becoming a bane
-# 3. Communication among different UI View/Screens - Deep Mesh(s)
+Two-way data binding was one killer feature that made developers go 'wow' and one of main reasons to increase Angular JS adoption. But this also brought in the ugly digest loop. As we have more watchers in our views, the digest loop is going to take more time which is going to impact our page responsiveness.
 
+# 3. Communication among different UI View/Screens - Deep Mesh(s)
+$broadcast, $emit, $on are used to communicate among sections of your App but these are slow as it has to traverse through sometimes the entire scope.
+
+To fix these issues, Angular team decided to fix this at the core which eventually led to a rewrite. Having said this, Angular team still continues to work on AngularJS, making it better for people using it.
+
+OK. Lets now look at whats new in Angular 2 and how it is addressing the above mentioned issues.
 
 # 1. Think in Terms of Components
-Angular team realized that the MV* way of building SPA was not fitting into the realm of modern web apps. In came [Web Components][web-components] approach popularized by [ReactJS][react-js]. This is one of the core change in Angular 2, thinking of UI design in terms of components and how they interact and communicate.
+Angular team realized that the MV* way of building SPA was not fitting into the realm of modern web apps. In came [Web Components][web-components] approach popularized by [ReactJS][react-js]. This is one of the core change in Angular 2, thinking of UI design in terms of components and how they interact and communicate. There is no more concept of global scope as each component has its own scope which is local to it.
 
 # 2. Better Change detection Strategy - Bye Bye Digest Cycle
+With the component based approach, the change detection strategy could be well optimized thus eliminating the digest cycle. Dirty checking is still employed to detect the changes, but this checking happens only once for a component and its children. For more info on the change detection strategy, please refer to Vicktor Savkin's [blog][victor-blog] 
 
 # 3. Leaning towards uni-directional flow of data
 
@@ -29,3 +39,4 @@ Angular team realized that the MV* way of building SPA was not fitting into the 
 [angular]: https://angular.io/
 [web-components]: https://developer.mozilla.org/en-US/docs/Web/Web_Components
 [react-js]: https://facebook.github.io/react/
+[victor-blog]: https://vsavkin.com/change-detection-in-angular-2-4f216b855d4c
