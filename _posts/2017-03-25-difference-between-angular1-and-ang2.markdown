@@ -24,6 +24,8 @@ To address these issues, Angular team decided that a rewrite is required as all 
 
 OK. Lets now look at whats new in Angular 2 and how it is addressing the above mentioned issues.
 
+## _Whats in Angular 2 ?_
+
 # 1. Think in Terms of Components
 Angular team realized that the MV* way of building SPA was not fitting into the realm of modern web app development. In came [Web Components][web-components] approach popularized by [ReactJS][react-js]. This is one of the core change in Angular 2, thinking of UI design in terms of components and how they interact and communicate. There is no more concept of global scope as each component has its own scope.
 
@@ -33,10 +35,20 @@ With the component based approach, the change detection strategy could be well o
 # 3. Leaning towards uni-directional flow of data
 
 # 4. Platform agonistic - Angular can run on Server now
+Talk about SEO
 
 # 5. Embracing TypeScript - Stronger Type Checking
+With so much of code written in Javascript both for, the not so good features of the languages was not helping to make it a mass JS movement. In came [TypeScript][typescript], which is a super set of JS with stronger type checking. Now, you could catch lot of errors at compile time rather than at run time. Angular team did acknowledge that using TypeScript to build lot of Angular 2 framework code 
+
+# 6. Performance Benefits, Tooling etc
+Ahead of Time Compilation (AOT), Lazy loading, Smaller bundle sizes are aimed at lesser page load time and improving the UX. With Angular CLI, scaffolding a new Angular App is super easy with all the tools out of the box. 
+
+## _Conclusion_
+
+If you are at the cross roads and heavily invested on AngularJS, I would recommend to start and adopt the component way of designing and developig UI Apps introduced from AngularJS 1.5. This would be the first step as you slowly migrate to Angular 2 and above.
 
 [angular]: https://angular.io/
 [web-components]: https://developer.mozilla.org/en-US/docs/Web/Web_Components
 [react-js]: https://facebook.github.io/react/
 [victor-blog]: https://vsavkin.com/change-detection-in-angular-2-4f216b855d4c
+[typescript]: https://www.typescriptlang.org/
