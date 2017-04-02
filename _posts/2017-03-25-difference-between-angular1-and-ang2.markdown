@@ -3,6 +3,7 @@ layout: post
 title:  "Difference between AngularJS and Angular 2"
 date:   2017-03-28 06:44:01 +0530
 categories: jekyll update
+comments: true
 ---
 
 [Angular][angular] the framework as this is what the Angular team would like to call, has evolved(and evolving) from being the most popular MV* framework over the last 5 years to a framework that has transformed itself to survive and be a leader for years to come.
