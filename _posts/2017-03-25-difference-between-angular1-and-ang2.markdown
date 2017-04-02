@@ -32,10 +32,10 @@ Angular team realized that the MV* way of building SPA was not fitting into the 
 With the component based approach, the change detection strategy has been well optimized thus eliminating the digest cycle. Dirty checking is still employed to detect the changes, but this checking happens only once for a component and its children. Use of immutable objects and observables aids in highly performant apps. For more info on the change detection strategy, please refer to Victor Savkin's [blog][victor-blog].
 
 # 3. Embraces uni-directional flow of data
-One common problem that we come across when we build large complex SPA is state management. [Redux][redux] like patterns 
+One common problem that we come across when we build large complex SPA is state management. [Redux][redux] like patterns aim at solving this problem. Angular lends itself to adopt Redux like patterns by allowing separation of concerns. Developing Angular Apps using state management container like [ngrx][ngrx-link] helps in building scalable. performant apps. 
 
 # 4. Platform agonistic - Angular can run on Server now
-Talk about SEO
+SPAs are not SEO friendly. With Angular Universal, we can render the first page on the server and send the HTML to the browser thus improving the UX and also making them SEO friendly. As with AngularJS, we can also build Desktop Apps on top of frameworks like [Electron][electron].
 
 # 5. Embracing TypeScript - Stronger Type Checking
 With so much of code written in Javascript both for backend and frontend, the not so good features of the languages was hindering the progress of this massive JS movement. In came [TypeScript][typescript], which is a super set of JS with stronger type checking. Now, you could catch lot of errors at compile time rather than at run time. Angular team themselves have used TypeScript to build lot of Angular 2 framework code and they did acknowledge that it helped them in capturing lot of bugs at dev time.
@@ -54,3 +54,5 @@ If you are at the cross roads and heavily invested on AngularJS, I would recomme
 [typescript]: https://www.typescriptlang.org/
 [angularjs-perf]: https://www.alexkras.com/11-tips-to-improve-angularjs-performance/
 [redux]: http://redux.js.org/
+[ngrx-link]: https://github.com/ngrx/store
+[electron]: https://electron.atom.io/
