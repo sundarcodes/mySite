@@ -34,4 +34,5 @@ exclude:
   - Gemfile.lock
 disqus:
   shortname: sundarcodes
+google_analytics: UA-96880592-1
 
