@@ -15,7 +15,10 @@ Git is a version control system with a de-centralized approach to source control
 Before you proceed further, I would recommend you to just try out this 15 minute [git tutorial][git-tutorial] so that whatever I have written below would make sense.
 
 ### Workflow when you working as a single man army
-The first step would be creating a git repository with the default master branch. **Master** branch should always have the copy of the code which is going to go to production. So during the development stage, it is advisable to create a **develop** branch
+The first step would be creating a git repository with the default master branch. **Master** branch should always have the copy of the code which is going to go to production. Now create a **develop** branch, which at any point of time would be the working branch for all the new features you would be added and this should be in in sync with the master branch throughout.
+
+#### Working on a feature
+Now, let's say you are going to work on a new feature or enhancement. Create a branch with the feature enhancement name. For example, if the feature you are going to work is **featureA**, create a branch from **develop** as name it as **develop-featureA**. Now keep working on this feature a
 
 ### Workflow when you working in a team
 
