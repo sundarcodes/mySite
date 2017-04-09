@@ -18,7 +18,7 @@ email: sundar82@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   The posts are my own little way of sharing my knowledge and giving back to the community from
   where I have learned a lot. I also beleive that knowledge is one of few commodities which when shared
-  never decreases.  
+  never decreases but on the contrary increases :).  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sundar_says
@@ -32,3 +32,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+disqus:
+  shortname: sundarcodes
+google_analytics: UA-96880592-1
+
