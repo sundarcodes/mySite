@@ -19,10 +19,19 @@ The first step would be creating a git repository with the default master branch
 
 #### Working on a feature
 Now, let's say you are going to work on a new feature or enhancement. Create a branch with the feature enhancement name from the **develop** branch. For example, if the feature you are going to work is **featureA**, create a branch from **develop** as name it as **develop-featureA**. 
-Keep working on this branch till you have completed the development and then submit a internal pull request from **develop-featureA** branch to **develop** branch. I am insisting on a pull request instead of merge because you would be able to leverage the review process (be it self)  
+Keep working on this branch till you have completed the development and then merge from **develop-featureA** branch to **develop** branch. Once you feel, you are done with your unit/integrating testing and feel its ready for production, submit a PR (pull request) from **develop** branch to **master** branch. I am insisting on a PR instead of a merge as you could leverage the review of your peers/client or even you yourself could take that extra mile in reviewing your code from the stand point of a reviewer instead of a developer.  
+
+#### Working on a production defect
+To be added....
 
 ### Workflow when you working in a team
+To be added....
 
+#### Working on a feature
+To be added....
+
+#### Working on a production defect
+To be added....
 
 [git-talk]: https://www.youtube.com/watch?v=4XpnKHJAok8
 [git-tutorial]: https://try.github.io/levels/1/challenges/2
