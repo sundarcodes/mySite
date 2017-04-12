@@ -22,7 +22,7 @@ Now, let's say you are going to work on a new feature or enhancement. Create a b
 Keep working on this branch till you have completed the development and then merge from **develop-featureA** branch to **develop** branch. Once you feel, you are done with your unit/integrating testing and feel its ready for production, submit a PR (pull request) from **develop** branch to **master** branch. I am insisting on a PR instead of a merge as you could leverage the review of your peers/client or even you yourself could take that extra mile in reviewing your code from the stand point of a reviewer instead of a developer.  
 
 #### Working on a production defect
-To be added....
+Its very normal that we would need to send a patch to fix an urgent production issue. During this scenario, the workflow would be this. Sync up your local master and remote master branch. Create a branch from master with the name **patch-A** and implement the hot fix. Once tested, submit a PR From the **patch-A** branch to **master** branch. Review or have some one review it and merge the PR. Now, merge the master branch changes to the feature branch you are working on and continue working.
 
 ### Workflow when you working in a team
 To be added....
