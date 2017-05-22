@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Learn Angular by building an App"
+title:  "Learn Angular 2+ by building an App - WIP"
 date:   2017-05-11
 categories: jekyll update
 comments: true
