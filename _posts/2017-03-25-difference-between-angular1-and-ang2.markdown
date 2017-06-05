@@ -33,7 +33,7 @@ Angular team realized that the MV* way of building SPA was not fitting into the 
 With the component based approach, the change detection strategy has been well optimized thus eliminating the digest cycle. Dirty checking is still employed to detect the changes, but this happens in just one pass across the Component Tree. Use of immutable objects and observables aids in building highly performant apps. For more info on the change detection strategy, please refer to Victor Savkin's [blog][victor-blog].
 
 # Embraces uni-directional flow of data
-One common problem that we come across when we build large complex SPA is state management. [Redux][redux] like patterns aim at solving this problem. Though Angular still supports one way and 2 way binding, its better to avoid them especially when you are developing large scale apps where managing state could be a big issue. This design philosophy comes from the React world and we have state management containers like [ngrx-store][ngrx-link] helps in building scalable, maintanable and more importantly *predictable* apps with Angular 2+. Please note that we have  
+One common problem that we come across when we build large complex SPA is state management. [Redux][redux] like patterns aim at solving this problem. Though Angular still supports one way and 2 way binding, its better to avoid them especially when you are developing large scale apps where managing state could be a big issue. This design philosophy comes from the React world and we have state management containers like [ngrx-store][ngrx-link] helps in building scalable, maintanable and more importantly *predictable* apps with Angular 2+. We also have a [ng2-redux][ng2-redux] which has the same API as of Redux.  
 
 # Platform agonistic - Angular can run on Server now
 SPAs are not SEO friendly. With Angular Universal, we can render the first page on the server and send the HTML to the browser thus improving the UX and also making them SEO friendly. As with AngularJS, we can also build Desktop Apps and Hybrid Mobile Apps on top of frameworks like [Electron][electron] and [Ionic][ionic].
@@ -59,3 +59,4 @@ If you are at the cross roads and heavily invested on AngularJS, I would recomme
 [electron]: https://electron.atom.io/
 [ionic]: http://ionicframework.com/
 [ng4-changes]: http://angularjs.blogspot.in/2017/03/angular-400-now-available.html
+[ng2-redux]: https://github.com/angular-redux/store
