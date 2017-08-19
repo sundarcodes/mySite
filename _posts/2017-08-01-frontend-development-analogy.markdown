@@ -22,7 +22,7 @@ I am going to compare building a website to building a house where :
 
 **UI Developer** would be the persons actually doing the house construction work. They would start from the foundations laying brick by brick and building the house group up following the architecture plan proposed by the Architect. Similarly, a UI developer would build a webpage following the layout and specifications laid out by the UI designer.
 
-**Front End Frameworks** would comprise of the tools that would aid in the faster construction of a house and at the same time ensure efficient use of materials and resources. You could think of them as readymade units of house like a window frames, prefabricated steel frames so that the construction team need not rebuild these components from scratch. Similary, a framework aids in reducing the boiler plate code required to get you started and also to help you in following certain guidelines while building a web page/site/app.
+**Front End Frameworks** would comprise of the tools that would aid in the faster construction of a house and at the same time ensure efficient use of materials and resources. You could think of them as readymade units of house like a window frames, prefabricated steel frames so that the construction team need not rebuild these components from scratch. Similary, a framework in the context of front end development aids in reducing the boiler plate code required to get you started and also to help you in following certain guidelines while building a web page/site/app.
 
 
 ## To Be Extended.... :) 
