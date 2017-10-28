@@ -46,7 +46,7 @@ Brendan Eich is the creator of JavaScript. He created the language in a matter o
 
 ### **R**
 
-### **S**
+### **S**ervice Worker
 
 ### **T**
 
@@ -54,7 +54,7 @@ Brendan Eich is the creator of JavaScript. He created the language in a matter o
 
 ### **V**
 
-### **W**
+### **W**eb Assembly/**W**eb Worker
 
 ### **X**
 
