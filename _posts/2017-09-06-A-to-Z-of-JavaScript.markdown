@@ -18,7 +18,7 @@ Brendan Eich is the creator of JavaScript. He created the language in a matter o
 
 ### **D**ynamically Typed
 
-### **E**ventloop
+### **E**CMAScript/**E**ventLoop
 
 ### **F**unctional
 
